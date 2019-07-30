@@ -1,0 +1,166 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/******************** NavBar *******************/
+.nav {
+    background: #084c7b;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #fff;
+}
+
+li a:hover {
+    color: #fff;
+}
+
+.active-nav {
+    background: rgb(6, 151, 206);
+}
+
+/******************** General *******************/
+.padding {
+    padding: 30px 0;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+}
+
+.landing-color{
+    background: linear-gradient(to top, rgba(203, 208, 213, 1), rgba(255, 255, 255, 0.5))!important;
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+   color:#084c7b; 
+   text-transform: uppercase;
+   padding-bottom: 30px;
+   font-weight: bold;
+}
+
+.text p {
+    color:#084c7b;
+    font-weight: bold;
+}
+
+/******************** Table *******************/
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: #d5d9dd;
+    color: #034670;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.border-middle {
+    border-right: 1px solid #034670;
+}
+
+/******************** Text Car *******************/
+.text-car {
+    background: #0697ce;
+    padding: 5px 0;
+    border-bottom: 5px #084c7b solid;
+}
+
+.text-car p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/******************** footer *******************/
+footer {
+    background: #084c7b;
+    padding: 5px 0;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+#change {
+    margin-top: 20px;
+}
+
+.btn-footer {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 2px solid #084c7b;
+}
+
+/******************** Font Awesome *******************/
+.fa-map-marker-alt {
+    font-size: 22px;
+}
+
+.fa-envelope-square {
+    font-size: 22px;
+}
+
+.fa-phone-square-alt {
+    font-size: 22px;
+}
+
+
+/******************** Media Queries *******************/
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .float-left {
+        clear: both;
+    }
+    
+    .float-right {
+        clear: both;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    table {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .float-left {
+        clear: both;
+    }
+    
+    .float-right {
+        clear: both;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+}
+
